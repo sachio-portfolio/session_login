@@ -1,0 +1,9 @@
+<h1>ブログ一覧</h1>
+<div class="">
+<% @blogs.each do |blog| %>
+  <div class="">
+    <%= blog.title %>
+    <%= blog.content %>
+  </div>
+<% end %>
+</div>
